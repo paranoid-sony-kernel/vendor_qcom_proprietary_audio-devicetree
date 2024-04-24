@@ -13,29 +13,8 @@ dtbo-y += kalama-audio.dtbo \
                  kalama-audio-rumi.dtbo \
                  kalama-audio-hdk.dtbo \
                  kalama-sg-audio-hhg.dtbo \
-                 nuwa-audio-mtp.dtbo \
-                 ishtar-audio-mtp.dtbo \
-                 babylon-audio-mtp.dtbo \
-                 fuxi-audio-mtp.dtbo \
-                 wangshu-audio-mtp.dtbo \
-                 socrates-audio-mtp.dtbo \
-                 vermeer-audio-mtp.dtbo \
-                 sheng-audio-mtp.dtbo
+                 somc-yodo-audio-pdx234.dtbo
 endif
-
-ifeq ($(CONFIG_ARCH_SA8155), y)
-dtbo-y +=  sa8155-audio.dtbo
-endif
-
-ifeq ($(CONFIG_ARCH_KHAJE), y)
-dtbo-y += khaje-audio.dtbo \
-		khaje-audio-idp.dtbo \
-		khaje-audio-qrd.dtbo \
-		khaje-audio-qrd-hvdcp3p5.dtbo \
-		khaje-audio-idp-nopmi.dtbo \
-                khajeg-audio-idp.dtbo \
-                khajeg-audio-idp-90hz.dtbo \
-		khaje-nowcd.dtbo
 endif
 
 ifeq ($(CONFIG_ARCH_CROW), y)
